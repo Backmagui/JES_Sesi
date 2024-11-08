@@ -41,7 +41,7 @@ main{
 .main-score{
     display: flex;
     width: 100%;
-    
+    gap: 40px;
 }
 
 .score{
@@ -64,13 +64,13 @@ main{
 .modalidade-esporte{
     font-style: bold;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 70px;
     margin-bottom: 0;
 }
 
 .ao-vivo{
     color: #E22121;
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 700;
     margin-top: 0;
 }
@@ -101,7 +101,7 @@ main{
 
 #name{
     margin-top: 0;
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 600;
     letter-spacing: 5px;
 }
@@ -118,8 +118,12 @@ main{
     margin-top: 40px;
 }
 
-.player-stats{
+.personal-stats{
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .goal{
@@ -129,12 +133,72 @@ main{
 }
 
 .goal h1{
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 0;
 }
 
 .goal p{
     margin-top: 0;
     font-size: 20px;
+    font-weight: bolder;
+}
+
+.timeline{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.timeline-card{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #000;
+    border-radius: 20px;
+    padding: 0 2rem;
+}
+
+.timeline-date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.timeline-date h1{
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+.timeline-date p{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.timeline-score{
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 60px;
+}
+
+.timeline-squad{
+    position: relative;
+    top: -30px;
+}
+
+.timeline-score h1{
+    font-size: 40px;
+}
+
+.timeline-modalidade p{
+    font-size: 30px;
+    margin-top: 0;
     font-weight: bolder;
 }
