@@ -170,6 +170,8 @@ main{
     border-radius: 10px;
     padding-left: 3rem;
     padding-right: 3rem;
+    height: 230px;
+    
 }
 
 .timeline-date{
@@ -201,9 +203,16 @@ main{
 
 .timeline-squad{
     position: relative;
-    top: -10px;
+    top: 10px;
     z-index: -1;
    
+}
+
+#ponto{
+    font-size: 30px;
+    text-align: center;
+    -top: -0.5rem;
+    position: relative;
 }
 
 .timeline-score h1{

@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <img src="./images/timbre_sesi_senai.png" alt="" width="300px">
+        <img src="./images/timbre_sesi_senai.png" alt="" width="200px">
         <div class="title">
             <h1>JES-2024</h1>
         </div>
@@ -48,10 +48,12 @@
                     <div class="timeline-score">
                         <div class="timeline-squad">
                             <img src="./images/emblema.png" alt="" width="50px">
+                            <h1 id="ponto">2</h1>
                         </div>
                         <h1>X</h1>
                         <div class="timeline-squad">
                             <img src="./images/emblema.png" alt="" width="50px">
+                            <h1 id="ponto">0</h1>
                         </div>
                     </div>
                     <div class="timeline-modalidade">
@@ -66,10 +68,12 @@
                     <div class="timeline-score">
                         <div class="timeline-squad">
                             <img src="./images/emblema.png" alt="" width="50px">
+                            <h1 id="ponto"></h1>
                         </div>
                         <h1>X</h1>
                         <div class="timeline-squad">
                             <img src="./images/emblema.png" alt="" width="50px">
+                            <h1 id="ponto"></h1>
                         </div>
                     </div>
                     <div class="timeline-modalidade">
@@ -84,10 +88,12 @@
                     <div class="timeline-score">
                         <div class="timeline-squad">
                             <img src="./images/emblema.png" alt="" width="50px">
+                            <h1 id="ponto"></h1>
                         </div>
                         <h1>X</h1>
                         <div class="timeline-squad">
                             <img src="./images/emblema.png" alt="" width="50px">
+                            <h1 id="ponto"></h1>
                         </div>
                     </div>
                     <div class="timeline-modalidade">

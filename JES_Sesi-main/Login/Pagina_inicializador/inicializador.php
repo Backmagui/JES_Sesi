@@ -22,25 +22,128 @@
         <div class="login"><img src="./img_inic/timbre_sesi_senai.png" alt="" width="300px"></div>
     </header>
     <main>
-        <div class="card-game">
-            <div class="card-time">
-                <h1 id="hoje">HOJE</h1>
+        <div class="timeline-card">
+            <div class="timeline-date">
+                <H1>HOJE</H1>
                 <p>14:00</p>
             </div>
-            <div class="card-score">
-                <div class="card-squad">
-                    <img src="./img_inic/emblema.png" alt="" width="30px">
-                    <h2>Nome</h2>
+            <div class="timeline-score">
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">2</h1>
                 </div>
                 <h1>X</h1>
-                <div class="card-squad">
-                    <img src="./img_inic/emblema.png" alt="" width="30px">
-                    <h2>Nome</h2>
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">0</h1>
                 </div>
+            </div>
+            <div class="timeline-modalidade">
+                <p>Esporte-Fem/Masc</p>
             </div>
             <button class="iniciar">Iniciar</button>
         </div>
-        
+        <div class="timeline-card">
+            <div class="timeline-date">
+                <H1>HOJE</H1>
+                <p>14:00</p>
+            </div>
+            <div class="timeline-score">
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">2</h1>
+                </div>
+                <h1>X</h1>
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">0</h1>
+                </div>
+            </div>
+            <div class="timeline-modalidade">
+                <p>Esporte-Fem/Masc</p>
+            </div>
+            <button class="iniciar">Iniciar</button>
+        </div> <div class="timeline-card">
+            <div class="timeline-date">
+                <H1>HOJE</H1>
+                <p>14:00</p>
+            </div>
+            <div class="timeline-score">
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">2</h1>
+                </div>
+                <h1>X</h1>
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">0</h1>
+                </div>
+            </div>
+            <div class="timeline-modalidade">
+                <p>Esporte-Fem/Masc</p>
+            </div>
+            <button class="iniciar">Iniciar</button>
+        </div> <div class="timeline-card">
+            <div class="timeline-date">
+                <H1>HOJE</H1>
+                <p>14:00</p>
+            </div>
+            <div class="timeline-score">
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">2</h1>
+                </div>
+                <h1>X</h1>
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">0</h1>
+                </div>
+            </div>
+            <div class="timeline-modalidade">
+                <p>Esporte-Fem/Masc</p>
+            </div>
+            <button class="iniciar">Iniciar</button>
+        </div> <div class="timeline-card">
+            <div class="timeline-date">
+                <H1>HOJE</H1>
+                <p>14:00</p>
+            </div>
+            <div class="timeline-score">
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">2</h1>
+                </div>
+                <h1>X</h1>
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">0</h1>
+                </div>
+            </div>
+            <div class="timeline-modalidade">
+                <p>Esporte-Fem/Masc</p>
+            </div>
+            <button class="iniciar">Iniciar</button>
+        </div> <div class="timeline-card">
+            <div class="timeline-date">
+                <H1>HOJE</H1>
+                <p>14:00</p>
+            </div>
+            <div class="timeline-score">
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">2</h1>
+                </div>
+                <h1>X</h1>
+                <div class="timeline-squad">
+                    <img src="./img_inic/emblema.png" alt="" width="50px">
+                    <h1 id="ponto">0</h1>
+                </div>
+            </div>
+            <div class="timeline-modalidade">
+                <p>Esporte-Fem/Masc</p>
+            </div>
+            <button class="iniciar">Iniciar</button>
+        </div>
     </main>
 </body>
 <script>

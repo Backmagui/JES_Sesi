@@ -80,41 +80,91 @@ main{
     flex-wrap: wrap;
     width:100%;
     justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
 }
 
-.card-game{
+.timeline-card{
+
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 200px;
+    align-items: center;
     border: 5px solid #000;
-    padding: 20px;
+    border-radius: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 275px;
+    width: 280px;
+    justify-content: center; /* Centraliza os elementos verticalmente */
+    align-items: center;
+    
 }
 
-.card-time{
+.timeline-date{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 0.2rem;
+
 }
 
-
-.card-time h1{
+.timeline-date h1{
+    margin-bottom: 0;
     font-size: 20px;
+    
 }
 
-.card-score{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.card-squad{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.card-squad h2{
+.timeline-date p{
     font-size: 20px;
+    margin-top: 0;
+}
+
+.timeline-score{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 60px; 
+    margin: -1rem; 
+}
+
+.timeline-squad{
+    position: relative;
+    top: 10px;
+    padding-bottom: 10px;
+    z-index: -1;
+}
+#ponto{
+    font-size: 30px;
+    text-align: center;
+    -top: -0.5rem;
+    position: relative;
+}
+
+.timeline-score h1{
+    font-size: 40px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    top: -20px;
+}
+
+.timeline-modalidade p{
+    font-size: 20px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+
+.iniciar{
+    position: relative;
+    left:100px;
+    border-radius: 80px;
+    background-color: green;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    color: #fff;
 }
