@@ -51,7 +51,7 @@ if ($usuario_autenticado == true){
 else{
     // echo "Usuário ou senha incorreto";
     $_SESSION['autenticado'] = 'NÃO';
-    header ('Location: index.php?login=erro');
+    header ('Location: entrar_erro.php');
 }
 
 ?>

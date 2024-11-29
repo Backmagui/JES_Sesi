@@ -33,24 +33,10 @@
                   <div class="form-group">
                     <input name="senha" type="password" class="form-control" placeholder="Senha" required>
                   </div>
-                  <?php if (isset($_GET['login']) && $_GET['login'] == 'erro'){ ?>
 
                   <div class="text-danger">
                     Usuário ou senha invalido(s)!
                   </div>
-                  
-                  <?php } ?>
-
-                  <?php
-                  if (isset($_GET['login']) && $_GET['login'] == 'erro2'){
-                  ?>
-
-                  <div class="text-danger">
-                    Faça o login primeiro!!!
-                  </div>
-      
-                  <?php } ?>
-                  <br>
                   <br>
                   <div class="botoes">
                       <button class="botao" type="submit">Voltar</button>

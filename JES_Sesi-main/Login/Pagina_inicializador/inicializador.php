@@ -13,8 +13,8 @@
             <li><a href="">Cadastrar Time</a></li>
             <li><a href="">Cadastrar Jogador</a></li>
             <li><a href="">Cadastrar Jogo</a></li>
-            <li><a href="">Contador</a></li>
-            <li><a href="" id="logout"><img src="./img_inic/login.png" alt="" width="20px">Sair</a></li>
+            <li><a href="../../Login/Pagina_contador/contador.php">Contador</a></li>
+            <li><a href="../../index.php" id="logout"><img src="./img_inic/login.png" alt="" width="20px">Sair</a></li>
         </ul>
         <div class="title">
             <h1>JES-2024</h1>
@@ -41,7 +41,8 @@
             <div class="timeline-modalidade">
                 <p>Esporte-Fem/Masc</p>
             </div>
-            <button class="iniciar">Iniciar</button>
+            <a href="../../Login/Pagina_contador/contador.php">
+            <button class="iniciar">Iniciar</button></a>          
         </div>
         <div class="timeline-card">
             <div class="timeline-date">
@@ -62,7 +63,8 @@
             <div class="timeline-modalidade">
                 <p>Esporte-Fem/Masc</p>
             </div>
-            <button class="iniciar">Iniciar</button>
+            <a href="../../Login/Pagina_contador/contador.php">
+            <button class="iniciar">Iniciar</button></a>
         </div> <div class="timeline-card">
             <div class="timeline-date">
                 <H1>HOJE</H1>
@@ -82,7 +84,8 @@
             <div class="timeline-modalidade">
                 <p>Esporte-Fem/Masc</p>
             </div>
-            <button class="iniciar">Iniciar</button>
+            <a href="../../Login/Pagina_contador/contador.php">
+            <button class="iniciar">Iniciar</button></a>
         </div> <div class="timeline-card">
             <div class="timeline-date">
                 <H1>HOJE</H1>
@@ -102,7 +105,8 @@
             <div class="timeline-modalidade">
                 <p>Esporte-Fem/Masc</p>
             </div>
-            <button class="iniciar">Iniciar</button>
+            <a href="../../Login/Pagina_contador/contador.php">
+            <button class="iniciar">Iniciar</button></a>
         </div> <div class="timeline-card">
             <div class="timeline-date">
                 <H1>HOJE</H1>
@@ -122,7 +126,8 @@
             <div class="timeline-modalidade">
                 <p>Esporte-Fem/Masc</p>
             </div>
-            <button class="iniciar">Iniciar</button>
+            <a href="../../Login/Pagina_contador/contador.php">
+            <button class="iniciar">Iniciar</button></a>
         </div> <div class="timeline-card">
             <div class="timeline-date">
                 <H1>HOJE</H1>
@@ -142,7 +147,8 @@
             <div class="timeline-modalidade">
                 <p>Esporte-Fem/Masc</p>
             </div>
-            <button class="iniciar">Iniciar</button>
+            <a href="../../Login/Pagina_contador/contador.php">
+            <button class="iniciar">Iniciar</button></a>
         </div>
     </main>
 </body>
