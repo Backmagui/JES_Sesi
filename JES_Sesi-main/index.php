@@ -1,3 +1,7 @@
+<?php
+require_once("./login/Pagina_contador/pontos.php");
+require_once("teste.php")
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -26,14 +30,14 @@
                 <div class="bottom-score">
                     <div class="squad-score">
                         <img src="./images/emblema.png" alt="" width="90px;">
-                        <p id="name">Nome</p>
+                        <p id="name"><?php echo $nome_time1; ?></p>
                     </div>
-                    <h1 class="placar" id="time1">1</h1>
+                    <h1 class="placar" id="time1"><?php echo $_SESSION['pontos1']; ?></h1>
                     <h1 class="x">X</h1>
-                    <h1 class="placar" id="time1">1</h1>
+                    <h1 class="placar" id="time1"><?php echo $_SESSION['pontos2']; ?></h1>
                     <div class="squad-score">
                         <img src="./images/emblema.png" alt="" width="90px">
-                        <p id="name">Nome</p>
+                        <p id="name"><?php echo $nome_time2; ?></p>
                     </div>
 
                 </div>
