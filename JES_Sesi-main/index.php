@@ -14,7 +14,7 @@
         <div class="title">
             <h1>JES-2024</h1>
         </div>
-        <div class="login"><img src="./images/login.png" alt="" width="50px"></div>
+        <div class="login"><a href="./Login/Pagina_login/entrar.php"><img src="./images/login.png" alt="" width="50px"></a></div>
     </header>
     <main>
         <section class="main-score">
