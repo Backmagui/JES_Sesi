@@ -10,7 +10,6 @@ $nome_time2 = isset($_POST['nome_time2']) ? htmlspecialchars($_POST['nome_time2'
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Placar</title>
-    <link rel="stylesheet" href="aovivo.css">
 </head>
 <body>
     <div class="container">

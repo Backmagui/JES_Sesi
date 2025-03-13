@@ -1,5 +1,5 @@
 <?php
-require_once("./login/Pagina_contador/pontos.php");
+require_once("./Paginas/Pagina_contador/pontos.php");
 require_once("teste.php")
 ?>
 <!DOCTYPE html>

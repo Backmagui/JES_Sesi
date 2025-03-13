@@ -9,11 +9,11 @@
 
   <body>
     <header>
-        <img src="./img_login/timbre_sesi_senai.png" alt="" width="200px">
+        <img src="./"g alt="" width="200px">
         <div class="title">
             <h1>JES-2024</h1>
         </div>
-        <div class="login"><a href="../../index.php"><img src="./img_login/login.png" alt="" width="40px"></div></a>
+        <div class="login"><a href="../../index.php"><img src="../../images/login.png" alt="" width="40px"></div></a>
     </header>
     <main>
       <div class="container">
