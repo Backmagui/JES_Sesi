@@ -19,7 +19,7 @@ require_once("./Paginas/Pagina_contador/pontos.php");
         <div class="title">
             <h1>JES-2024</h1>
         </div>
-        <div class="login"><a href="./Login/Pagina_login/entrar.php"><img src="./images/login.png" alt="" width="50px"></a></div>
+        <div class="login"><a href="./Paginas/Pagina_login/entrar.php"><img src="./images/login.png" alt="" width="50px"></a></div>
     </header>
     <main>
         <section class="main-score">
@@ -31,14 +31,16 @@ require_once("./Paginas/Pagina_contador/pontos.php");
                 <div class="bottom-score">
                     <div class="squad-score">
                         <img src="./images/emblema.png" alt="" width="90px;">
-                        <p id="name"><?php echo $nome_time1; ?></p>
+                        <p id="name">Time 1</p>
                     </div>
+                    
                     <h1 class="placar" id="time1"><?php echo $_SESSION['pontos1']; ?></h1>
                     <h1 class="x">X</h1>
-                    <h1 class="placar" id="time1"><?php echo $_SESSION['pontos2']; ?></h1>
+                    <h1 class="placar" id="time2"><?php echo $_SESSION['pontos2']; ?></h1>
+
                     <div class="squad-score">
                         <img src="./images/emblema.png" alt="" width="90px">
-                        <p id="name"><?php echo $nome_time2; ?></p>
+                        <p id="name">Time 2</p>
                     </div>
 
                 </div>
