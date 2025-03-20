@@ -1,4 +1,5 @@
 <?php
+
 // Inicializa os placares com valores padrão
 session_start();
 if (!isset($_SESSION['pontos1'])) {
