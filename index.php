@@ -1,6 +1,7 @@
 <?php
 require_once("./Paginas/Pagina_contador/pontos.php");
-?>
+?> 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
