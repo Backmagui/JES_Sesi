@@ -1,6 +1,5 @@
 <?php
 require_once("./Paginas/Pagina_contador/pontos.php");
-require_once("teste.php")
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
