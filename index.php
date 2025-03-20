@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once("./Paginas/Pagina_contador/pontos.php");
 ?> 
 
